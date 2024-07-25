@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    padding-top: 80px; /* Adjust according to header height */
+    padding-top: 80px; 
 }
 
 header {
@@ -49,7 +49,7 @@ header nav ul {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-left: auto; /* Align the buttons to the right */
+    margin-left: auto; 
 }
 
 header nav ul li {
