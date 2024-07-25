@@ -1,0 +1,111 @@
+
+
+/*header*/
+header {
+    background-color: #fff; 
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+ /*logo*/
+header nav a img {
+    height: 70px; 
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+/*sign in/login*/
+
+
+   
+
+
+
+header nav ul:first-of-type {
+    margin-left: auto; 
+}
+
+header nav ul:first-of-type li {
+    margin: 0 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #232323;
+    position: relative;
+}
+
+header nav ul:first-of-type li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 20px;
+    
+}
+
+
+/*buton RO*/
+header nav ul:last-of-type li {
+    margin: 0 13px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/*hamburger menu*/
+header nav ul:last-of-type li button {
+   background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header nav ul:last-of-type li button img {
+    height: 30px; 
+
+}
+
+
+
+footer {
+    background-color: #2a2a72;
+    color: #fff;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+footer ul button {
+    background: none;
+    border: none;
+    height: 30px;
+}
+
+footer ul button img {
+    height: 30px;
+}
+
+
+
+    
