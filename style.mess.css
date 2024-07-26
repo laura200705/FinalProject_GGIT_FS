@@ -2,6 +2,7 @@
 header {background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #ccc;
     padding: 16px 20px;
+    width: 100%;
 }
 nav {
     display: flex;
@@ -200,7 +201,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98%;
+    width: 100%;
     position: static;
     bottom: 0;
 }
