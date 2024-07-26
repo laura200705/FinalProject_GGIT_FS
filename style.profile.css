@@ -1,0 +1,112 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.back-button img {
+    width: 30px;
+    height: auto;
+}
+
+.profile-img {
+    margin-right: 20px;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.profile-rating img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.message-button {
+    background-color:#000044;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Task list */
+.taskuri{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.task-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.task-item {
+    background-color: #5272ff79;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-item p {
+    margin: 10px 0;
+}
+.completed-tasks{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.violet{
+    color:#000044;
+}
+
+
