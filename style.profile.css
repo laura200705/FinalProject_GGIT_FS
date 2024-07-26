@@ -2,7 +2,6 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
     color: #333;
     padding: 20px;
 }
@@ -120,4 +119,83 @@ body {
 
 .violet {
     color: #000044;
+}
+header {background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ccc;
+    padding: 16px 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .login {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav .login a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+nav .login ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav .login ul li {
+    margin: 0px 10px;
+}
+nav .login ul li a {
+    padding: 8px 16px;
+    color: #000;
+    font-size: 19px;
+    transition: background-color 0.3s ease;
+}
+nav .login ul li a:hover {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+nav .login img {
+    height: 50px;
+}
+nav .login button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+nav .login button img {
+    height: 30px;
+}
+
+
+footer {
+    background-color: #2a2a72;
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    position: static;
+    bottom: 0;
+}
+footer p {
+margin: 0;
+}
+footer ul {
+list-style: none;
+display: block;
+}
+footer ul button {
+background: none;
+border: none;
+height: 30px;
+}
+footer ul button img {
+height: 40px;
 }
