@@ -1,185 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Interface</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            display: flex;
-            flex-grow: 1;
-            overflow: hidden;
-        }
-        .sidebar {
-            width: 250px;
-            background-color: #e8e8e8;
-            padding: 10px;
-            overflow-y: auto;
-        }
-        .sidebar .profile {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .sidebar img {
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            margin-right: 10px;
-        }
-        .sidebar p {
-            margin: 5px 0;
-        }
-        .chat {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .messages {
-            flex-grow: 1;
-            padding: 10px;
-            overflow-y: auto;
-            background-color: #f4f4f4;
-        }
-        .messages .message {
-            display: flex;
-            margin-bottom: 10px;
-        }
-        .messages .message img {
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            margin-right: 10px;
-        }
-        .messages .message .content {
-            max-width: 70%;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: #d0d0d0;
-            word-wrap: break-word;
-        }
-        .messages .message.sent .content {
-            margin-left: auto;
-            background-color: #b0d0ff;
-        }
-        .messages .message.received .content {
-            background-color: #d0d0d0;
-        }
-        .input-area {
-            display: flex;
-            padding: 10px;
-            border-top: 1px solid #ddd;
-        }
-        .input-area input {
-            flex-grow: 1;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            margin-right: 10px;
-        }
-        .input-area button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 10px;
-            background-color: #007bff;
-            color: white;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.mess.css">
 </head>
 <body>
 
-   
-
-    <div>
-        <div>
-            <button><a href="profile.html"><img src="imagini/back.png"></a></button>
-            <p>Messages</p>
-        </div>
+<!--INCEPUT HEADER-->
+<header>
+    <nav>
+<div class="login">
+        <a href="#"><img src="imagini/logo.png.png"></a>
+        <ul>
+            <li><a href="sign.html">Sign in</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li>RO</li>
+            <li><button type="menu"> <img src="imagini/menu.png"></button></li>
+        </ul>
     </div>
+    </nav>
+</header>
 
-
-
-    <div class="container">
-        <div class="sidebar">
-            <div class="profile">
-                <img src="imagini/c1.jpg" alt="Profile Picture">
-                <div>
-                    <p>Emma Roberts</p>
-                    <p>Loremhohihi ihoihohi hjjjjjjjjj jjjjjjjjjj jjjjjjjjjjjjjj jjjjjjjjjj</p>
+    <!--CHAT CONTAINER-->
+    <section class="section">
+        <div class="chat-container">
+            <div class="sidebar">
+                <div class="container">
+                    <a href="#"><button class="buton"><img src="imagini/back.png" alt="back" class="img-buton"></button></a>
+                    <div class="text">Message</div>
+                </div>
+                <div class="user">
+                    <img src="imagini/c1.jpg" alt="User">
+                    <div class="text">
+                        <div class="username">Emma Roberts</div>
+                        <div class="message">Loremhohihi ihoih...<br>hjljjjjjjjjjjjjjj...</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="imagini/c1.jpg" alt="User">
+                    <div class="text">
+                        <div class="username">Emma Roberts</div>
+                        <div class="message">Loremhohihi ihoih...<br>hjljjjjjjjjjjjjjj...</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="imagini/c1.jpg" alt="User">
+                    <div class="text">
+                        <div class="username">Emma Roberts</div>
+                        <div class="message">Loremhohihi ihoih...<br>hjljjjjjjjjjjjjjj...</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="imagini/c1.jpg" alt="User">
+                    <div class="text">
+                        <div class="username">Emma Roberts</div>
+                        <div class="message">Loremhohihi ihoih...<br>hjljjjjjjjjjjjjjj...</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="imagini/c1.jpg" alt="User">
+                    <div class="text">
+                        <div class="username">Emma Roberts</div>
+                        <div class="message">Loremhohihi ihoih...<br>hjljjjjjjjjjjjjjj...</div>
+                    </div>
                 </div>
             </div>
-            <div class="profile">
-                <img src="imagini/c1.jpg" alt="Profile Picture">
-                <div>
-                    <p>Emma Roberts</p>
-                    <p>Loremhohihi ihoihohi hjjjjjjjjj jjjjjjjjjj jjjjjjjjjjjjjj jjjjjjjjjj</p>
+            <div class="chat-box">
+                <div class="header">
+                    <img src="imagini/c1.jpg" alt="User">
+                    <div>
+                        <div class="username">Emma Roberts</div>
+                        <div class="user-id">(emma_123)</div>
+                    </div>
                 </div>
-            </div>
-            <div class="profile">
-                <img src="imagini/c1.jpg" alt="Profile Picture">
-                <div>
-                    <p>Emma Roberts</p>
-                    <p>Loremhohihi ihoihohi hjjjjjjjjj jjjjjjjjjj jjjjjjjjjjjjjj jjjjjjjjjj</p>
+                <div class="messages">
+                    <div class="message sent">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolor!
+                        </div>
+                    </div>
+                    <div class="message received">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolor!
+                        </div>
+                    </div>
+                    <div class="message sent">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolor!
+                        </div>
+                    </div>
+                    <div class="message received">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolor!
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="profile">
-                <img src="imagini/c1.jpg" alt="Profile Picture">
-                <div>
-                    <p>Emma Roberts</p>
-                    <p>Loremhohihi ihoihohi hjjjjjjjjj jjjjjjjjjj jjjjjjjjjjjjjj jjjjjjjjjj</p>
-                </div>
-            </div>
-            <div class="profile">
-                <img src="imagini/c1.jpg" alt="Profile Picture">
-                <div>
-                    <p>Emma Roberts</p>
-                    <p>Loremhohihi ihoihohi hjjjjjjjjj jjjjjjjjjj jjjjjjjjjjjjjj jjjjjjjjjj</p>
+                <div class="input-container">
+                    <input type="text" placeholder="Message...">
+                    <button>Send</button>
                 </div>
             </div>
         </div>
-        <div class="chat">
-            <div class="messages">
-                <div class="message sent">
-                    <img src="imagini/c1.jpg" alt="Profile Picture">
-                    
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolorum! Accusamus dignissimos quibusdam repellat cupiditate nemo atque excepturi magnam, consectetur, aliquam dolorem earum, impedit ea eaque!</p>
-                    </div>
-                </div>
+    </section>
 
-                <div class="message received">
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolorum! Accusamus dignissimos quibusdam repellat cupiditate nemo atque excepturi magnam, consectetur, aliquam dolorem earum, impedit ea eaque!</p>
-                    </div>
-                </div>
-                <div class="message sent">
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolorum! Accusamus dignissimos quibusdam repellat cupiditate nemo atque excepturi magnam, consectetur, aliquam dolorem earum, impedit ea eaque!</p>
-                    </div>
-                </div>
-                <div class="message received">
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolorum! Accusamus dignissimos quibusdam repellat cupiditate nemo atque excepturi magnam, consectetur, aliquam dolorem earum, impedit ea eaque!</p>
-                    </div>
-                </div>
-                <div class="message sent">
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere blanditiis quod nobis dolorum!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="input-area">
-                <input type="text" placeholder="Message...">
-                <button>Send</button>
-            </div>
-        </div>
-    </div>
+<!--FOOTER-->
+<footer>
+    <p>&copy;2024 All rights reserved.</p>
+    <ul>
+        <button><img src="imagini/f.png"></button>
+        <button><img src="imagini/ig.png"></button>
+    </ul>
+</footer>
 </body>
 </html>
+
