@@ -3,35 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.login.css">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.signin.css">
 </head>
 <body>
+    <!--INCEPUT HEADER-->
     <header>
         <nav>
-
-            <a href="index.html"><img src="imagini/logo.png.png"></a>
-            <ul>
-                <li><a href="sign.html">Sign in</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-            <ul>
-                <li>RO</li>
-                <li><button type="menu"> <img src="imagini/menu.png"></button></li>
-            </ul>
-            
+            <div class="login">
+                <a href="#"><img src="imagini/logo.png.png" alt="Logo"></a>
+                <ul>
+                    <li><a href="sign.html">Sign in</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li>RO</li>
+                    <li><button type="menu"> <img src="imagini/menu.png" alt="Menu"></button></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-
-    <div >
+    <div class="form-container">
         <form action="/login" method="post">
             <input type="text" id="username" name="username" placeholder="Username" required>
-            <br>
-            <input type="password" id="password" name="password" placeholder="Password" required>
-            <br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
             <button type="submit">Login</button>
         </form>
     </div>
+
+    <!--FOOTER-->
+    <footer>
+        <p>&copy;2024 All rights reserved.</p>
+        <ul>
+            <button><img src="imagini/f.png" alt="Facebook"></button>
+            <button><img src="imagini/ig.png" alt="Instagram"></button>
+        </ul>
+    </footer>
 </body>
-</html>
+</html> 
